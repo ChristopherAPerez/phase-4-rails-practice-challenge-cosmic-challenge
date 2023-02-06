@@ -73,7 +73,7 @@ function AddMission({ onAddPlanet, scientistId}) {
                 <label htmlFor="planet_id">planet</label>
                 <select
                 id="planet_id"
-                value={formData.planet_id}
+                value={formData.planet_id} 
                 onChange={handleChange}
                 >
                 <option value="">Select planet...</option>
